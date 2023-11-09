@@ -28,6 +28,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     margin-bottom: 20px;
+    margin-right: 8px;
     padding: 20px;
 }
 
@@ -61,7 +62,11 @@ button[disabled] {
 
 .tarjeta img {
     display: block;
-    /* Esto asegura que la imagen se centre correctamente */
     margin: 0 auto;
-    /* Centra horizontalmente la imagen */
+}
+
+.c-type__flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
